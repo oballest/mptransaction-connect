@@ -14,7 +14,7 @@ public class MonitorSinkTask extends CamelSinkTask{
 
     @Override
     protected String getSinkKamelet() {
-        return "kamelet:log-sink";
+        return "kamelet:mptransaction-sink";
     }
     
 }

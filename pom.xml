@@ -42,17 +42,21 @@
       <version>4.0.3</version>
     </dependency>
     <dependency>
-      <groupId>org.apache.camel.kafkaconnector</groupId>
-      <artifactId>camel-http-sink-kafka-connector</artifactId>
-      <version>4.0.3</version>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-yaml-dsl</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.camel.kafkaconnector</groupId>
-      <artifactId>camel-log-sink-kafka-connector</artifactId>
-      <version>4.0.3</version>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-kamelet</artifactId>
     </dependency>
-
-
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-log</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-http</artifactId>
+    </dependency>
 
     <!-- Add your optional dependencies here -->
   </dependencies>
